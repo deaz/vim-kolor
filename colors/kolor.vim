@@ -252,7 +252,7 @@ if &t_Co > 255
     highlight Keyword         ctermfg=168     ctermbg=none    cterm=bold
     highlight Title           ctermfg=141     ctermbg=none    cterm=bold
     if g:kolor_alternative_matchparen==0
-      highlight MatchParen      ctermfg=235     ctermbg=206     cterm=bold
+      highlight MatchParen      ctermfg=206     ctermbg=235     cterm=bold
     else
       highlight MatchParen      ctermfg=235     ctermbg=247     cterm=bold
     endif
